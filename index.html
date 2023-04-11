@@ -1,0 +1,150 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cursos HTML y CSS</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="icon" href="a/logoalambradosbelgrano1.ico">
+	</head>
+	<body>
+	<header class="top-header">
+
+			<h1 class="titulo">Curso de HTML y CSS</h1>
+
+		<div class="nav">
+			<nav>
+				<p>
+					<b>
+						<a href="#" class="a-nav">Inicio</a> - 
+						<a href="https://www.alambradosbelgrano.com.ar/alambres.php" class="a-nav" target="_blank">Productos</a> - 
+						<a href="https://www.alambradosbelgrano.com.ar/presupuesto.php" class="a-nav"target="_blank">Presupuestos</a> - 
+						<a href="https://www.alambradosbelgrano.com.ar/trabajos.php" class="a-nav"target="_blank">Trabajos</a>
+					</b>
+				</p>	
+			</nav>
+		</div>
+	</header>
+<main>
+	<div><a href="https://wa.me/5492215414457?text=Bienvenidos%20a%20Alambrados%20Belgrano%20SRL%20esperamos%20tu%20consulta.%20En%20caso%20de%20necesitar%20un%20presupuesto%20a%20medida%20lo%20puedes%20solicitar%20en%20https://www.alambradosbelgrano.com.ar/presupuestos/" target="_blank"><img src="a/wsp.jpg" onmouseover="this.src = 'a/wsp.jpg'" onmouseout="this.src = 'a/wspgris.jpg'" border="0" alt="Comunicate" title="Comunicate" width="5%" height="10%">
+	</a></div>
+	<div><h2>SELECTORES PARA CSS</h2></div>
+					<ul>
+	<li class="punto"> El <span style="color: darkred;"> *</span> se utiliza para modificar todo el html </li>
+	<li> Para editar un elemento se pone el nombre del elemento, por ejemplo:<span style="color: darkred;"> H1 ; p ; img ; etc... </span></li>
+	<li>El <span style="color: darkred;">. </span>se utiliza para editar por clase, es decir editar un elemento especifico. Por ejemplo, si tenes dos P, pero queres editar solo uno, tenes que poner dentro del p una clase con un nombre. 
+	(&gt;p class="nombre"&lt;)y para editarlo en css poner .nombre</li>
+	<li id="id">Para editar por ID se utiliza el <span style="color: darkred;">#</span>. Poniéndole a un elemento id=´´nombre´´ y en css #nombre. El id a diferencia de las clases porque es unico.</li>
+	<li class="uno">Para editar por pseudo-clases se utiliza <span style="color: darkred;">:hover</span>. Esto sirve para cambiar, por ejemplo, el color de un elemento al pasar por arriba con el mouse. En el css se pone :hover y el elemento a modificar</li>
+					</ul>
+<div class="tabla1"><table>
+		<tbody>
+			<tr>
+				<td class="important" title="¡important">¡IMPORTANT</td>
+				<td class="estilos" title="style">Estilos en Linea</td>
+				<td class="identificadores" title="#-id">Identificadores</td>
+				<td class="mismovalor" title="class">Clases</td>
+				<td class="mismovalor" title=":">Pseudo-clases</td>
+				<td class="mismovalor" title="color;text-aliging;etc">Atributos</td>
+				<td class="elementos" title="h1;p;li;etc">Elementos</td>
+				<td class="elementos" title="::">Pseudo-elementos</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+	<table id="tabla2">
+		<tbody>
+			<tr>
+				<th class="encabezado">Nombre</th>
+				<th class="encabezado">Apellido</th>
+				<th class="encabezado">DNI</th>
+				<th class="encabezado">Domicilio</th>
+
+			</tr>
+			<tr>
+				<th class="fila2">Fausto</th>
+				<th class="fila2">Desojo</th>
+				<th class="fila2">42292982</th>
+				<th class="fila2">446 1595</th> 
+			</tr>
+			<tr>
+				<th>Mateo</th>
+				<th>Desojo</th>
+				<th>40915935</th>
+				<th>446 1595</th> 
+			</tr>
+			<tr>
+				<th>Sergio</th>
+				<th>Desojo</th>
+				<th>21463221</th>
+				<th>446 1595</th> 
+			</tr>
+				</tbody>
+	</table>
+			<br>
+			<h2>Complete el Formulario</h2>
+			<form>
+	<div class="Nombre">
+		<label for="Nombre">¿Cual es tu Nombre? </label>
+		<input type="text" name="Nombre" id="Nombre" placeholder="Ingresa tu nombre">
+	</div>
+	<div class="apellido">
+		<label for="Apellido">¿Cual es tu Apellido?</label>
+		<input type="text" name="Apellido" id="Apellido" placeholder="Ingresa tu apellido">
+	</div>
+	<div class="color">
+		<label for="Color">¿Cual es tu color Favorito?</label>
+		<input type="color" name="Color" id="Color">
+	</div>
+	<div class="email">
+		<label for="email">¿Cual es tu email?</label>
+		<input type="email" name="email" id="email" placeholder="ingresa tu email" required>
+	</div>
+	<div class="fecha de nacimiento">
+		<label for="fecha">Fecha de nacimiento</label>
+		<input type="date" name="fecha" id="fecha">
+	</div>
+	<div class="gusto de helado">
+		<a class="helados">Seleccione su gusto de helado que mas le guste:</a>
+		<br>
+		<label for="pregunta">Dulce de leche</label>
+		<input type="checkbox" name="pregunta" id="pregunta1">
+		<br>
+		<label for="pregunta">Chocolate</label>
+		<input type="checkbox" name="pregunta" id="pregunta2">
+	</div>
+	<div class="hora">
+		<label for="hora">horario en el que completo el formulario</label>
+		<input type="time" name="hora" id="hora">
+	</div>
+	<div class="frutas">
+		<label for="frutas">Selecciona una fruta:</label>
+		<select id="frutas" name="frutas">
+		  <option value="manzana">Manzana</option>
+		  <option value="naranja">Naranja</option>
+		  <option value="banana">Banana</option>
+		  </select>
+	</div>
+	<label for="descripcion">Deje una breve opinion sobre que le parecio el formulario</label>
+	<br>
+	<textarea name="descripcion" id="descripcion" cols="50" rows="5" placeholder="opinion del formulario"></textarea>
+	<div>
+		<input type="reset" name="reset" id="reset" value="reiniciar" class="reiniciar">
+		<input type="submit" value="enviar" class="enviar">
+	</div>
+	</form>
+		
+</main>
+<footer>
+	<p>Si no sabes algo entra <a href="https://chat.openai.com/chat" class="ChatGPT" target="_blank">Aquí</a> y preguntale lo que quieras, que ChatGPT va a poder respondertelo</p>
+	<a href="#" class="inicio">volver al inicio</a>
+</footer>
+	
+	<div class="caja1">caja1</div>
+	<div class="caja2">caja2</div>
+	<div class="caja3">caja3</div>
+	<div class="caja4">caja4</div>
+	<div class="caja5">caja5</div>
+
+	</body>
+	</html>

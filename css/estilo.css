@@ -1,0 +1,280 @@
+h1{
+	color: #fabb08 ;
+}
+.titulo 
+{
+	background: black;
+	color:  #fabb08 ;
+	font-size: 34px;
+	padding: 10px;
+	display: inline-block;
+}
+.almb
+{
+margin-top: 120px;
+	width: 300px;
+	margin-right: 15px;
+}
+h2
+{
+	background: #fabb08;
+	color: black;
+	display: inline-block;
+}
+* 
+{
+	color: black;
+}
+li
+{
+	color: black;
+}
+.ejemplo
+{
+	color: darkorange;
+}
+#id
+{
+	color:hotpink;
+}
+.uno:hover
+{
+	color: green;
+}
+td
+{
+  border: 1px solid black;
+  display: block;
+  padding: 10px;
+}
+td
+{
+	color: black;
+}
+table 
+{
+
+  width: 50%;
+  margin: 20px auto;
+  border: 4px solid;
+  border-collapse: collapse;
+  border-color: black;
+}
+
+td, th
+{
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: #f2f2f2;
+}
+
+th 
+{
+  background-color: #dddddd;
+  font-weight: bold;
+}
+.important
+{
+	background-color: #181818;
+	color: darkred;
+	padding: 15px;
+	font-size: 30px;
+}
+.estilos
+{
+	background-color: #E11717;
+	padding: 14px;
+	font-size: 22px;
+}
+.identificadores
+{
+	background-color: hotpink;
+	padding: 12px;
+	font-size: 20px;
+}
+.mismovalor
+{
+	background-color: pink;
+	padding: 10px;
+	font-size: 15px;
+	margin: 0px;
+	border: 5px;
+}
+.elementos
+{
+	padding: 10px;
+	font-size: 12px;
+	border: 5px;
+	background-color: lightyellow;
+}
+.ChatGPT
+{
+	color: green;
+}
+.inicio
+{
+	color: blue;
+}
+h2
+{
+	border: 2.5px solid black;
+}
+h1
+{
+	border: 4px;
+	border-color: #fabb08;
+	border-style:dashed;
+	box-sizing: border-box;
+	box-shadow: -7px 7px 30px blueviolet;
+}
+video
+{
+	margin: 0px 15px;
+	height: 400px;
+	width: 315px;
+}
+nav
+{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+	border: 4px rgb(55, 0, 255);
+	border-style:dotted;
+	border-radius: 40%;
+	display: inline-block;
+	background-color: aquamarine;
+	box-sizing:border-box;
+	box-shadow: 7px 10px 30px aquamarine;	
+}
+header
+{
+	text-align: center;
+}
+.vyf
+{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.vyf
+{
+	margin: 10px;
+	max-width: 100%;
+}
+header
+{
+	background-color: black;
+	padding: 10px 10px;
+}
+.Nombre
+{
+display: block;	
+}
+.Apellido
+{
+	display: block;
+}
+input
+{
+	margin-bottom: 10px;
+}
+.encabezado
+{
+	background-color: #E11717;
+	border: 4px;
+	border-style:solid;
+	font-size: 18px;
+}
+
+th
+{
+	border: 1px solid;
+}
+.tabla1
+{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+.a-nav:hover
+{
+	color: blue;
+}
+.a-nav
+{
+	text-decoration: none;
+	padding: 10px;
+}
+.helados
+{
+	background-color: rgb(158, 149, 214);
+	font-size: 16px;
+}
+.reiniciar
+{
+	background-color: rgb(250, 120, 120);
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.enviar
+{
+	background-color: rgb(136, 252, 136);
+	padding: 1.2px 12px;
+}
+.caja1, .caja2, .caja3, .caja4
+{
+	margin-top: -80px;
+	width: 50px;
+	height: 50px;
+	border:1px solid black;
+	position: relative;
+}
+.caja1
+{
+	background-color: #E11717;
+	left: 110px;
+	z-index: 50;
+	bottom: -200px;
+}
+.caja2
+{
+	background-color: rgb(39, 83, 204);
+	z-index: 10;
+	left: 90px;
+	margin-bottom: -120px;
+	bottom: -250px;
+}
+.caja3
+{
+	background-color: green;
+	z-index: 50;
+	left: 90px;
+	bottom: -400px;
+}
+
+.caja4
+{
+	background-color: yellow	;
+	left: 110px;
+	z-index: 20;
+	bottom: -450px;
+}
+.caja5
+{
+	width: 300px;
+	height: 300px;
+	background-color: grey	;
+	position:relative;
+	top: 200px;
+	z-index:0;
+}
+.almb
+{
+	border: 1px solid black;
+}
