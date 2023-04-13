@@ -169,8 +169,11 @@ flex-wrap: wrap;
 }
 header
 {
-	background-color: black;
+	background-image: url(../../a/logoalambradosbelgrano.jpg);
+	background-repeat:repeat;
+	background-size: contain;
 	padding: 10px 10px;
+	border-radius: 2em;
 }
 .Nombre
 {
@@ -273,6 +276,14 @@ th
 	position:relative;
 	top: 200px;
 	z-index:0;
+	text-align: center;	
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.p-div
+{
+	text-align: center;
 }
 .almb
 {
