@@ -280,6 +280,11 @@ th
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	transition: transform .2s;
+}
+.caja5:hover
+ {
+    transform: scale(1.05);
 }
 .p-div
 {
@@ -288,4 +293,8 @@ th
 .almb
 {
 	border: 1px solid black;
+}
+body
+{
+	background-color:lightgrey;
 }
