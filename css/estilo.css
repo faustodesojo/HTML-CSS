@@ -306,9 +306,17 @@ input[type="reset"]
 {
 	border-radius: 10px;
 }
-a
+.ChatGPT
 {
 	text-decoration: none;
 	border: 2px solid;
 	border-radius: 1em;
+}
+td:hover
+{
+	transform: scale(1.05);
+}
+.caja5
+{
+	box-shadow: 0px -5px 15px 15px blue;
 }
